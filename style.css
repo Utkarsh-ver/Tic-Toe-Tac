@@ -1,0 +1,45 @@
+*{
+    background-color: rgb(140, 144, 120);
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 90vh;
+    width: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mainbox{
+    margin-top: 5%;
+    height: 60%;
+    width: 60%;
+     display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap:3%;
+}
+.box{
+    height: 30%;
+    width: 30%;
+    border:solid;
+    border-radius: 12px;
+    font-size:3rem;
+}
+.reset{
+    width: 20vh;
+    height: 7vh;
+    border: solid;
+    border-radius: 15px;margin-top: 2%;
+    background-color: black;
+    color: antiquewhite;
+    font-size: 1rem;
+}
+.win-main{
+    font-size: 2rem;
+    color:aliceblue;
+}
